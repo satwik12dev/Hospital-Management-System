@@ -142,19 +142,6 @@ final String senderPassword = "your_app_password";
 
 ---
 
-## 🧹 Deleting a User
-
-To delete a user by email (e.g., in admin flow):
-
-```java
-public static void deleteUserByEmail(Connection conn, String email) {
-    String sql = "DELETE FROM users WHERE email = ?";
-    PreparedStatement stmt = conn.prepareStatement(sql);
-    stmt.setString(1, email);
-    int rows = stmt.executeUpdate();
-}
-```
-
 ---
 
 ## 🚧 Future Improvements
@@ -170,7 +157,8 @@ public static void deleteUserByEmail(Connection conn, String email) {
 
 ## 🔗 Useful Links
 
-- [Java Mail (Jakarta Mail) Docs](https://eclipse-ee4j.github.io/mail/)
+- [Javax Mail ](https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar)
+- [Javax Activation](https://github.com/eclipse-ee4j/jaf/releases)
 - [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
 - [Gmail App Password Setup](https://support.google.com/accounts/answer/185833)
 - [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/)
