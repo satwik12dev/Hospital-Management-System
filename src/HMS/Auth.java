@@ -92,8 +92,8 @@ public class Auth {
     }
 
     private static boolean sendEmail(String to, String otp) {
-        final String from = "satwiksaxena41@gmail.com";            // change this
-        final String appPassword = "jfwriiaugtitfodn";       // change this
+        final String from = "your email id";            // change this
+        final String appPassword = "your 16 app passowrd";       // change this
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
