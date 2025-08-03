@@ -162,14 +162,13 @@ final String senderPassword = "your_app_password";
 - [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
 - [Gmail App Password Setup](https://support.google.com/accounts/answer/185833)
 - [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/)
-- [Maven Download](https://maven.apache.org/download.cgi)
-- [Spring Boot Migration Guide](https://spring.io/guides)
 
 ---
 
 ## 🙋‍♂️ Author
 
 **Satwik Saxena**  
+
 [LinkedIn](https://www.linkedin.com/in/satwik-12-dev)
 ---
 
