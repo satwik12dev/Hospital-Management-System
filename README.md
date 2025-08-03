@@ -181,9 +181,8 @@ public static void deleteUserByEmail(Connection conn, String email) {
 
 ## 🙋‍♂️ Author
 
-**Ashish Saxena**  
-[LinkedIn](https://www.linkedin.com/in/your-profile) • [GitHub](https://github.com/yourusername)
-
+**Satwik Saxena**  
+[LinkedIn](https://www.linkedin.com/in/satwik-12-dev)
 ---
 
 ## 📄 License
